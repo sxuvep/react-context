@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './Theme/BasicContext/app';
+import App from './Counter/context_with_memo';
+//import App from './Theme/BasicContext/app';
 //import App from './Theme/simpleContext';
 //import App from './Counter/counter_reducer';
 //import App from './Counter/counter';
