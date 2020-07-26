@@ -70,7 +70,7 @@ const Counter = () => {
 	);
 };
 
-const MemorizedCounter = React.memo(Counter);
+const MemoizedCounter = React.memo(Counter);
 
 const CountDisplay = () => {
 	const { count } = useCount();
@@ -83,7 +83,7 @@ const CountDisplay = () => {
 	);
 };
 
-const MemorizedCountDisplay = React.memo(CountDisplay);
+const MemoizedCountDisplay = React.memo(CountDisplay);
 
 const App = () => {
 	const [, forceUpdate] = React.useState();
@@ -93,8 +93,8 @@ const App = () => {
 			{renderCount}
 			<button onClick={() => forceUpdate({})}>force render</button>
 			<CountProvider>
-				<MemorizedCountDisplay />
-				<MemorizedCounter />
+				<MemoizedCountDisplay />
+				<MemoizedCounter />
 			</CountProvider>
 		</div>
 	);
