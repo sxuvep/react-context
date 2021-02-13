@@ -4,6 +4,7 @@ import './index.css';
 import App from './Counter/context_with_memo';
 import * as serviceWorker from './serviceWorker';
 
+//this is just a comment
 ReactDOM.render(
 	<React.StrictMode>
 		<App />
