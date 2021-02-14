@@ -2,11 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Counter/context_with_memo';
-//import App from './Theme/BasicContext/app';
-//import App from './Theme/simpleContext';
-//import App from './Counter/counter_reducer';
-//import App from './Counter/counter';
-//import App from './Counter/counter_context';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
